@@ -10,7 +10,7 @@ const DashCoins = () => {
         return (
           <div
             key={item.id}
-            className="bg-[#2C2C32] flex justify-around items-center rounded-lg py-6 grow"
+            className="bg-[#2C2C32] flex justify-around items-center rounded-lg px-1 py-6 grow"
           >
             <div className="flex gap-4 items-center text-[22px]">
               <Icon />

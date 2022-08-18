@@ -13,8 +13,8 @@ const DashCardRight = () => {
         <h1 className="text-white"> Top most </h1>
         <div className="grid grid-cols-4 gap-8">
           <CustomBar activeCount={20} isFullActiveCells />
-          <CustomBar activeCount={16} />
           <CustomBar activeCount={3} />
+          <CustomBar activeCount={11} />
           <CustomBar activeCount={6} />
         </div>
       </div>
